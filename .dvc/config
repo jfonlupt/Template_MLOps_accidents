@@ -1,0 +1,12 @@
+[core]
+    analytics = false
+    remote = origin
+['remote "remote_storage"']
+    url = ../../dvc_remote
+['remote "remote_gdrive"']
+    url = gdrive://14MToRta_S8iFHkPQ_RhhgjTFkI21S-nz
+    gdrive_use_service_account = true
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/jfonlupt/Template_MLOps_accidents.s3
+    region = us-east-1
